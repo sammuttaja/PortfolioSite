@@ -16,6 +16,7 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="font-awesome-4.7.0\css\font-awesome.min.css">
   <style>
     /* Remove the navbar's default margin-bottom and rounded borders */ 
     .navbar {
@@ -43,12 +44,17 @@
       </button>
       <a class="navbar-brand" href="index.html">Portfolio</a>
     </div>
-    <div class="collapse navbar-collapse" id="myNavbar">
+    <div class="collapse navbar-collapse order-1" id="myNavbar">
       <ul class="nav navbar-nav">
         <li class="active"><a href="index.html">Home</a></li>
         <li><a href="About.html">About</a></li>
         <!--<li><a href="#">Gallery</a></li>
         <li><a href="#">Contact</a></li>-->
+      </ul>
+      <ul class="nav navbar-nav navbar-right fa-ul">
+        <li>
+          <a href="https://github.com/sammuttaja"><i class="fa fa-github" aria-hidden="true"></i></a>
+        </li>
       </ul>
     </div>
   </div>
@@ -64,8 +70,67 @@
 <div class="container-fluid bg-3 text-center">  
 
   <h3>Some of my Work</h3><br>
-  <div class="row">
-    <div class="row text-center ">
+
+  <div class="text-center ">
+    <div class="col-sm-5 text-right bg-2">
+      <p>Repair Ahoy. This was done for Global game jam 2020</p>
+      <p class=""> <a href="https://globalgamejam.org/2020/games/repair-ahoy-9">Link to Game</a></p>
+    </div>
+    <div class="col-sm-5">
+      <iframe width="100%" height="315" src="https://www.youtube.com/embed/xFi6Ic_uCyU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+    </div>
+  </div>
+  
+  <div class=" text-center ">
+    <div class="col-sm-5 text-center bg-2">
+      <p class="">Victims of Gravity. Other programmer for this project. Got third place on hatch party game compo in assembly summer 2018</p>
+      <p><a href="https://www.assembly.org/summer18/demoscene/game-dev">Link to Game</a></p>
+    </div>
+    <div class="col-sm-5">
+      <iframe width="100%" height="315" src="https://www.youtube.com/embed/Ulxa5mWuH8M" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+    </div>
+  </div>
+
+  <div class="text-center ">
+    <div class="col-sm-5 text-right bg-2">
+      <p>Home Decorator +. Global game jam 2019</p>
+      <p class=""> <a href="https://globalgamejam.org/2019/games/home-decorator">Link to Game</a></p>
+    </div>
+    <div class="col-sm-5">
+      <img src="https://ggj.s3.amazonaws.com/styles/game_content__wide/games/screenshots/nayttokuva_1.png?itok=MJu5OZCQ&timestamp=1548596274" class="img-responsive" style="width:100%" alt="Image">
+    </div>
+  </div>
+
+  <div class=" text-center ">
+    <div class="col-sm-5 text-right bg-2">
+      <p>The Raft. Programmer in Game Jam game. First time creating VR game.</p>
+      <a href="https://globalgamejam.org/2018/games/raft">Link</a>
+    </div>
+    <div class="col-sm-5">
+      <img src="https://ggj.s3.amazonaws.com/styles/game_sidebar__wide/game/featured_image/theraft.png?itok=yQTFYi19&timestamp=1517060624" class="img-responsive" style="width:100%" alt="Image">
+    </div>
+  </div>
+
+    <div class=" text-center ">
+        <div class="col-sm-5 text-right bg-2">
+            <p>Street Heat. I created the AI, with the main programmer as my thesis</p>
+            <p>Link for the steam page: <a href="http://store.steampowered.com/app/744040/Street_Heat/">Street Heat</a></p>
+        </div>
+      <div class="col-sm-5">
+        <iframe width="100%" height="315" src="https://www.youtube.com/embed/CuwKdskzDcI" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+      </div>
+    </div>
+
+    <div class=" text-center ">
+      <div class="col-sm-5 text-right bg-2">
+        <p>Demo that I made for friends <a href="Data/MokComp.zip">Dowload link</a></p>
+      </div>
+      <div class="col-sm-5">
+        <img src="Data/Preview.png" class="img-responsive" style="width:100%" alt="Image">
+      </div>
+    </div>
+
+    <div class="text-center ">
       <div class="col-sm-5 text-right bg-2">
         <p class="">Palju. I was the main programmer for this project <a href="http://www.assembly.org/summer16/demoscene/game-dev/">Link to Game</a></p>
       </div>
@@ -74,52 +139,15 @@
       </div>
     </div>
 
-    <div class="row text-center ">
-        <div class="col-sm-5 text-right bg-2">
-            <p>Street Heat. I created the AI, with the main programmer as my thesis</p>
-            <p>Link for the steam page: <a href="http://store.steampowered.com/app/744040/Street_Heat/">Street Heat</a></p>
-          </div>
-    <div class="col-sm-5">
-      <iframe width="100%" height="315" src="https://www.youtube.com/embed/CuwKdskzDcI" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-      </div>
-    </div>
-
-    <div class="row text-center ">
-        <div class="col-sm-5 text-center bg-2">
-          <p class="">Victims of Gravity. Other programmer for this project. Got third place on hatch party game compo in assembly summer 2018</p>
-          <p><a href="https://www.assembly.org/summer18/demoscene/game-dev">Link to Game</a></p>
-        </div>
-        <div class="col-sm-5">
-          <iframe width="100%" height="315" src="https://www.youtube.com/embed/Ulxa5mWuH8M" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-        </div>
-      </div>
-
-    <div class="row text-center ">
-        <div class="col-sm-5 text-right bg-2">
-          <p>The Raft. Programmer in Game Jam game. First time creating VR game.</p>
-          <a href="https://globalgamejam.org/2018/games/raft">Link</a>
-        </div>
-        <div class="col-sm-5">
-          <img src="https://ggj.s3.amazonaws.com/styles/game_sidebar__wide/game/featured_image/theraft.png?itok=yQTFYi19&timestamp=1517060624" class="img-responsive" style="width:100%" alt="Image">
-        </div>
-    </div>
-
-    <div class="row text-center ">
+    <div class=" text-center ">
       <div class="col-sm-5 text-right bg-2">
-        <p>Demo that I made for friends <a href="Data/MokComp.zip">Dowload link</a></p>
+        <p>Instanssi Graphics compo, Second place <a href="https://instanssi.org/arkisto/entry/581/">Dowload link</a></p>
       </div>
       <div class="col-sm-5">
-        <img src="Data/Preview.png" class="img-responsive" style="width:100%" alt="Image">
+        <img src="https://instanssi.org/uploads/CACHE/images/kompomaatti/entryimages/gth_Tunnel/cbaae7acfc59cfa3a3b4b47b9cf9a242.jpg" class="img-responsive" style="width:100%" alt="Image">
       </div>
+    </div>
 
-      <div class="row text-center ">
-        <div class="col-sm-5 text-right bg-2">
-          <p>Instanssi Graphics compo, Second place <a href="https://instanssi.org/arkisto/entry/581/">Dowload link</a></p>
-        </div>
-        <div class="col-sm-5">
-          <img src="https://instanssi.org/uploads/CACHE/images/kompomaatti/entryimages/gth_Tunnel/cbaae7acfc59cfa3a3b4b47b9cf9a242.jpg" class="img-responsive" style="width:100%" alt="Image">
-        </div>
-  </div>
 </div><br>
 <!--
 <div class="container-fluid bg-3 text-center">    
